@@ -1,4 +1,4 @@
-from langchain_ollama import ChatOllama  # ✅ Cambiado
+from langchain_ollama import ChatOllama
 from langchain_community.utilities import SQLDatabase
 from langchain_community.agent_toolkits.sql.toolkit import SQLDatabaseToolkit
 from langchain_community.agent_toolkits import create_sql_agent
