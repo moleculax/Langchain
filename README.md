@@ -1,4 +1,4 @@
-# 🤖 LangChain + Ollama - Asistente Local con IA
+# 🤖 Ejemplos de  LangChain + Ollama - Asistente Local con IA
 
 <div align="center">
 
@@ -11,27 +11,32 @@
 
 </div>
 
-## 📋 Tabla de Contenidos
-- [Características](#-características)
-- [Requisitos Previos](#-requisitos-previos)
-- [Instalación](#-instalación)
-- [Configuración](#-configuración)
-- [Uso](#-uso)
-- [Ejemplos](#-ejemplos)
-- [Agente SQL con Gemini](#-agente-sql-con-gemini)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Solución de Problemas](#-solución-de-problemas)
-- [Recursos](#-recursos)
+## 📋 Langchain
+LangChain es un framework (biblioteca) para Python y JavaScript que facilita la creación de aplicaciones que utilizan Modelos de Lenguaje Grande (LLMs) como Gemini, GPT, Llama, etc.
+
+"Ejecuto LangChain junto con Ollama en Debian 13, dentro de un entorno virtual de Python. El sistema funciona de manera estable, sin errores ni restricciones de conectividad o permisos
+
+## Explicación simple:
+Imagina que quieres construir un chatbot que:
+
+- Responda preguntas sobre tus documentos PDF
+
+- Consulte una base de datos en lenguaje natural
+
+- Use herramientas como calculadora o búsqueda web
+
+LangChain hace todo esto más fácil al proporcionar "piezas" que puedes conectar como bloques de Lego.
+
 
 ## ✨ Características
 
-- ✅ **100% Local** - Sin dependencia de APIs externas
-- ✅ **Sin Costos** - No consumes créditos ni pagas por uso
-- ✅ **Privado** - Tus datos no salen de tu máquina
-- ✅ **Multi-modelo** - Soporta Llama, Mistral, Gemma, Phi, etc.
-- ✅ **LangChain Integrado** - Cadenas, agentes y RAG
-- ✅ **SQL Agent** - Consulta bases de datos en lenguaje natural
-- ✅ **Streamlit UI** - Interfaz web amigable
+-  **100% Local** - Sin dependencia de APIs externas
+-  **Sin Costos** - No consumes créditos ni pagas por uso
+-  **Privado** - Tus datos no salen de tu máquina
+-  **Multi-modelo** - Soporta Llama, Mistral, Gemma, Phi, etc.
+-  **LangChain Integrado** - Cadenas, agentes y RAG
+-  **SQL Agent** - Consulta bases de datos en lenguaje natural
+-  **Streamlit UI** - Interfaz web amigable
 
 ## 📦 Requisitos Previos
 
@@ -42,4 +47,5 @@
 | pip | 23.x+ | `pip --version` |
 | RAM | 8GB+ | `free -h` |
 | Espacio disco | 10GB+ | `df -h` |
+
 
