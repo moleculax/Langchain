@@ -3,7 +3,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.7,
-    api_key="AQ.Ab8RN6KRkuvkijft-MCBNE_xOxyLs-OfscnYwBboaMr-J0YKrw"
+    api_key="tuapikey"
 )
 
 pregunta = "¿En que año llego el ser humano a la luna por primera vez y en cual mision?"

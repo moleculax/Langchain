@@ -5,7 +5,7 @@ from langchain_core.prompts import PromptTemplate
 import os
 
 # API key de Google
-os.environ["GOOGLE_API_KEY"] = "AQ.Ab8RN6KRkuvkijft-MCBNE_xOxyLs-OfscnYwBboaMr-J0YKrw"
+os.environ["GOOGLE_API_KEY"] = "tuapikey"
 
 # Configuración inicial
 st.set_page_config(page_title="Chatbot Básico", page_icon="🤖")

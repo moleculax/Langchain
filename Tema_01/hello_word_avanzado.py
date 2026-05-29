@@ -4,7 +4,7 @@ from langchain_core.prompts import PromptTemplate
 chat = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.7,
-   api_key="AQ.Ab8RN6KRkuvkijft-MCBNE_xOxyLs-OfscnYwBboaMr-J0YKrw"
+   api_key="tuapikey"
 )
 
 plantilla = PromptTemplate(
