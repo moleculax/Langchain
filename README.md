@@ -40,12 +40,13 @@ LangChain hace todo esto más fácil al proporcionar "piezas" que puedes conecta
 
 ## 📦 Requisitos Previos
 
-| Requisito | Versión | Comando verificar |
-|-----------|---------|-------------------|
-| Python | 3.10+ | `python --version` |
-| Ollama | 0.5.0+ | `ollama --version` |
-| pip | 23.x+ | `pip --version` |
-| RAM | 8GB+ | `free -h` |
+| Requisito  | Versión | Comando verificar |
+|------------|---------|-------------------|
+| **Debian** | 12/13 (Bookworm/Trixie) | `lsb_release -a` |
+| Python     | 3.10+ | `python --version` |
+| Ollama     | 0.5.0+ | `ollama --version` |
+| pip        | 23.x+ | `pip --version` |
+| RAM        | 8GB+ | `free -h` |
 | Espacio disco | 10GB+ | `df -h` |
 
 
