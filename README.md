@@ -49,4 +49,4 @@ LangChain hace todo esto más fácil al proporcionar "piezas" que puedes conecta
 | Espacio disco | 10GB+ | `df -h` |
 
 
-[moleculaxapp.vercel.app](https://moleculaxapp.vercel.app/)
+[URL EmilioJG](https://moleculaxapp.vercel.app/)
