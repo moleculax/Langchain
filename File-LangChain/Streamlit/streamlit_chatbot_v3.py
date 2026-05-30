@@ -1,3 +1,6 @@
+# Modificado o alterado por Emilio J. Gomez
+# @moleculax
+# https://moleculaxapp.vercel.app
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_ollama import ChatOllama
@@ -60,6 +63,8 @@ if model_name.startswith("ollama-"):
 else:
     chat_model = ChatGoogleGenerativeAI(model=model_name, temperature=temperature)
 
+st.link_button("🌐 MoleculaxApp", "https://moleculaxapp.vercel.app")
+
 # Inicializar el historial de mensajes en session_state
 if "mensajes" not in st.session_state:
     st.session_state.mensajes = []
@@ -110,8 +115,11 @@ if pregunta:
             full_response = ""
             # =======================================================================
             # Streamlit  de la respuesta =============================================
+            # los fragmentos de la respuesta los denominamos chunk
             for chunk in cadena.stream({"mensaje": pregunta, "historial": st.session_state.mensajes}):
+            # las respuesta viene en formato json y se tiene que concatenar
                 full_response += chunk.content
+            # usamos formato markdown para mostra en pantalla el resuultado en tiempo real, el simbolo "▌" es para simular el cursor parpadeante
                 response_placeholder.markdown(full_response + "▌")
 
             response_placeholder.markdown(full_response)
