@@ -7,13 +7,9 @@ import os
 
 from dotenv import load_dotenv, find_dotenv
 
-# ❌ ERROR LÍNEA 9: Import incorrecto - estas variables no existen en ese módulo
-# from Tema_01.streamlit_chatbot import response_placeholder, full_response
-# ✅ CORRECCIÓN: Eliminar esta línea
-
 # Busca .env automáticamente en carpetas superiores
 load_dotenv(find_dotenv())
-# Se ejecuta: streamlit run streamlit_chatbot_v2.py en la terminal para iniciar la app
+# Se ejecuta: streamlit run streamlit_chatbot_v3.py en la terminal para iniciar la app
 # USAMOS LA API KEY DE GEMINI LA CUAL ESTA COMO VARIABLE DE ENTORNO
 api_key = os.getenv("GOOGLE_API_KEY")
 # OLLAMA3.2 NO NECESITA API KEY PORQUE ESTA INSTALADO COMO AGENTEB IA LOCALMENTE
