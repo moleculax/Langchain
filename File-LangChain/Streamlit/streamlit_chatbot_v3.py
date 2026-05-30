@@ -105,9 +105,11 @@ if pregunta:
 
     try:
         with st.chat_message("assistant"):
+            # Registra un componente basico que se actualiza en tiempo de ejecucion
             response_placeholder = st.empty()
             full_response = ""
-
+            # =======================================================================
+            # Streamlit  de la respuesta =============================================
             for chunk in cadena.stream({"mensaje": pregunta, "historial": st.session_state.mensajes}):
                 full_response += chunk.content
                 response_placeholder.markdown(full_response + "▌")
